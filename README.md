@@ -11,7 +11,7 @@ This repository documents my class work and projects done for **CPS342**.
      
      Major: Computer Engineering
      
-     ID: https://github.com/N02443353
+     ID: [N02443353](https://github.com/N02443353)
      
      Year: Junior
      
