@@ -1,3 +1,2 @@
-#ELSpring2018
-This my N02443353 class repository. All work here is mine, except otherwise noted.
-
+![Image of New Paltz Logo](https://www.newpaltz.edu/media/identity/logos/newpaltzlogo.jpg)    
+**Spring 2018 Embedded Linux class.
