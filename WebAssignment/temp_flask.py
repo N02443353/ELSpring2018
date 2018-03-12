@@ -24,7 +24,7 @@ def PrintData():
          cursor = conn.cursor()
          cursor.execute('SELECT * FROM TempData WHERE date_time BETWEEN ? AND ?', (upperDate2, lowerDate2,))
         
-     return render_template('getTemp.html', data=cursor.fetchall(),upperDate=upperDate, lowerDate=lowerDate)
+     return render_template('Temp.html', data=cursor.fetchall(),upperDate=upperDate, lowerDate=lowerDate)
 
 
 
