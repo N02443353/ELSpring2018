@@ -1,0 +1,1 @@
+0,15,30,45 * * * *  /usr/bin/bin/python /home/pi/WebAssignment/temp.py
