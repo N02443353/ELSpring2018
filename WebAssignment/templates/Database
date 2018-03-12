@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script> 
+    $(document).ready(function(){ 
+        $("#Button1").click(function(){ 
+        var database = openDatabase($("#Text1").val(), "1.0", "Contact Manager", 200000);         
+        });   
+    }); 
+ </script>
+
+</head> 
+
+
+
+<body> 
+
+<input>
+
+</body> 
+</html>
