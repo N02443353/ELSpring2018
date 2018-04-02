@@ -1,0 +1,23 @@
+Maze Solving Robot
+
+Description: Design a robot that can utilize a IR reflectance sensor to follow a line maze until the end point is reached. The program will then determine the best path used by the robot and return to the start.
+
+Work Done so Far: Chassis is currently under construction, motors are being wired and power supply is being secured. Separately the reflectance sensor is being soldered and wired to allow connection to the RPi GPIO. We have researched how the IR reflectance sensor works as well as coding libraries available for it. We have also brainstormed a maze solving algorithm as well as a method to remember the most effective path used.
+
+What Needs to be done: In the next 3 weeks we need to complete construction of the chassis and attach the reflectance sensor to it. We need to create the code for it to sense intersections and call the maze solving algorithm to make the next correct move. As well as demonstrate the most effective path taken during the solution. Lastly we need to test the robot in a real world situation prior to presenting the finished project.
+
+Each Team Members Role:
+Michael Martinez: 
+
+	Work Completed: Built and soldered chassis, attached the power supply and wire Rpi to chassis.
+	Will Need to Do: Research and code motors to make correct turns during maze solution
+
+Seraphim Dmitrieff:
+
+	Work Completed: Research maze solving algorithm as well as devised method for remembering best path taken.
+	Will Need to Do: Code maze solving algorithm with the method for remembering best path. Work with partners to merge all code together into one program.
+
+David Scholemer:
+
+	Work Completed: Researched how IR reflectance sensor works as well as soldered chip to allow connection to RPi.
+	Will Need to Do: Work with Michael on completing robot chassis with sensor. Work on python code to have the reflectance sensor read measurements and return data to our program.
