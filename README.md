@@ -24,7 +24,7 @@ light non reflective surface and then return to the start as fast as possible.
 
 ## Instructor:  C. Easwaran
 ## Theory:
-    The maze solving algorithm follows a simple left-hand rule algorithm. 
+ The maze solving algorithm follows a simple left-hand rule algorithm. 
     Upon encountering an intersection the robot will always choose the most 
     left-handed path, prioritizing left, then straight then right. If no 
     turns are available the robot will turn around and continue the maze. 
@@ -38,7 +38,7 @@ light non reflective surface and then return to the start as fast as possible.
     track the movements and account for loops within a maze.
 
 ## Motor Design:
-    In order to get the robot car to go straight, left, right, or backwards, 
+ In order to get the robot car to go straight, left, right, or backwards, 
     the motor for each wheel of the car had to be coded. The robot car has 
     four motors, one for each wheel. By using two L293D motor drive chip, 
     two motors are connected to each chip. The left two wheels are connected 
@@ -68,7 +68,7 @@ to control the speed of the motors. The robot car is able to turn in
 any direction and turn on and off the right amount time it takes to complete the maze.
 
 ## Sensor Design and Algorithm:
-    To traverse the maze a program is implemented using a while loop 
+  To traverse the maze a program is implemented using a while loop 
 with a boolean condition to determine if the end of the maze has
 been reached. The end of the maze is defined by when all the 
 sensors read true after a movement has been completed. While this
@@ -96,7 +96,7 @@ it makes a left (denoted by value 1). By adding these values equaling 3 the prog
 views this as a right turn (value 3) comprises the better path travelled and will
 skip this dead end when returning to the start. 
 
-    Once the end of the maze is reached as determined by our large rectangular
+   Once the end of the maze is reached as determined by our large rectangular
 area that will trigger all the sensors to read true, we prompt the robot to turn
 around. Another while loop is used to backtrack the best path taken using the same 
 movement functions implemented during the initial traversal of the maze. Instead 
@@ -135,7 +135,7 @@ side. It maintains this configuration until the sensor no longer detects a line
 and returns to a normal base line speed  
 
 ## Can the vehicle retrace its path at the end of a line? 
-    The movement function will determine if a dead end is reached. If this condition
+   The movement function will determine if a dead end is reached. If this condition
 is detected the vehicle turns left until a line is detected on its middle IR sensor.
 A separate boolean condition is triggered to determine if the path is backtracked by 
 assigning numeric values to the turn decisions 1,2,3,4 for left, straight, right and
@@ -145,13 +145,13 @@ are discarded. If the sum is less than 4 the new value is appended to the turns 
 and recognized as a more optimal path 
 
 ## How is target defined? 
-    The target is defined by a large rectangular area that will read all 5 IR 
+   The target is defined by a large rectangular area that will read all 5 IR 
 sensors to be true once encountered.
     
 ## Can the vehicle find its target? 
   The vehicle was able to find the target but not able to completed solve the whole maze.
 ## What’s the algorithm used to find the target?
-     A left-hand rule algorithm is implemented to solve the maze. The robot is
+   A left-hand rule algorithm is implemented to solve the maze. The robot is
 instructed to continue along a path until an intersection or a dead end is reached.
 The program uses the line sensor data to make a decision and executes it based on
 prioritizing left, then straight then right then turning around. One the function
@@ -167,7 +167,7 @@ Are the motor control and maze solver codes organized and commented?
     All coding used in the maze solver can be found on: 
 https://github.com/N03512799/ELSpring2018/tree/master/code
 ## Overall Group Performance
-    Each person in the group had a part given to them. Michael Martinez
+   Each person in the group had a part given to them. Michael Martinez
 part was to build the the 4-wheel chassis robot car, code the motor to
 be able to turn in any direction, and assemble the cable connection from 
 the battery, and motors to the L293D motor drive chip. David Schoemer part
@@ -181,4 +181,4 @@ and return back. Towards the end of the project design, we all try to add any
 input to solve all the issues in the code to get the robot car to be able to solve the maze.
 
 ## Operation:
-    Utilizing the prebuilt motor chassis and Raspberry Pi the code is downloaded from 
+   Utilizing the prebuilt motor chassis and Raspberry Pi the code is downloaded from 
