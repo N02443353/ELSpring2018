@@ -170,15 +170,23 @@ https://github.com/N03512799/ELSpring2018/tree/master/code
    Each person in the group had a part given to them. Michael Martinez
 part was to build the the 4-wheel chassis robot car, code the motor to
 be able to turn in any direction, and assemble the cable connection from 
-the battery, and motors to the L293D motor drive chip. David Schoemer part
-was to code the IR reflectance sensor to be able read the line so it tell
+the battery, and motors to the L293D motor drive chip.
+Project Commitment (35%) - He needed to rebuild every class time because there was no way to carry 
+the car back and forth in order since the cable get tangle so he had rebuild it for every class so 
+it delay time work.
+
+David Schoemer part was to code the IR reflectance sensor to be able read the line so it tell
 the motor when to turn and he had to assemble to line sensor to the robot 
-car by soldered the chip to RPi. Seraphim Dmitrieff part was to implement
-the algorithm to solve the maze and combine all the code such as the motors,
-line sensor, and the algorithm.  The algorithm had to get the car to solve
-the maze by getting the car to figure out the fastest route to the main spot
+car by soldered the chip to RPi. 
+Project Commitment (20%) - He missed group meetings but he was able to get the sensor to work and 
+help find a library for pwm.
+Seraphim Dmitrieff part was to implement the algorithm to solve the maze and
+combine all the code such as the motors, line sensor, and the algorithm.  The algorithm had 
+to get the car to solve the maze by getting the car to figure out the fastest route to the main spot
 and return back. Towards the end of the project design, we all try to add any
 input to solve all the issues in the code to get the robot car to be able to solve the maze.
+Project Commitment (45%) - Since he had the main code on his library, it was hard to help him out at the end
+but he was able to get the algorithm for the maze and finish building the car using pixel glass and tape.
 
 ## Operation:
    Utilizing the prebuilt motor chassis and Raspberry Pi the code is downloaded from 
